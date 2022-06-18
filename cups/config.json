@@ -24,7 +24,9 @@
         "631/udp": "For other devices on the local network to print to this server"
     },
     "ingress": true,
-    "map": ["ssl"],
+    "map": [
+        "ssl"
+    ],
     "options": {
         "ssl": true,
         "certfile": "fullchain.pem",
@@ -38,5 +40,5 @@
         "keyfile": "str",
         "require_ssl": "bool"
     },
-    "image": "nicholascarr/{arch}-addon-cups"
+    "image": "luk164/{arch}-addon-cups"
 }
