@@ -21,7 +21,7 @@ RUN apt-get update \
         lsb-release \
         nano \
         samba \
-        bash-autocompletion \
+        bash-completion \
     && echo "deb http://nginx.org/packages/debian `lsb_release -cs` nginx" \
         | tee /etc/apt/sources.list.d/nginx.list \
     && curl -fsSL https://nginx.org/keys/nginx_signing.key | apt-key add - \
@@ -32,6 +32,6 @@ RUN apt-get update \
 
 COPY rootfs /
 
-EXPOSE 631 445
+EXPOSE 631 445 137 139
 
 CMD ["/run.sh"]
