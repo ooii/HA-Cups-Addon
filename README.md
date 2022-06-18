@@ -1,4 +1,4 @@
-# Nicholas' Home Assistant Addon Repository
+# Forked from Nicholas' Home Assistant Addon Repository
 
 ## CUPS Addon
 
