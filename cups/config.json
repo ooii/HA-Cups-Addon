@@ -15,6 +15,7 @@
     "boot": "auto",
     "usb": "true",
     "homeassistant_api": true,
+    "init": false,
     "ports": {
         "631/tcp": 631,
         "631/udp": 631
